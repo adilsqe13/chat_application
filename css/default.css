@@ -1,0 +1,179 @@
+/* *{
+    border: 1px solid red;
+} */
+
+.bold{
+    font-weight: bolder;
+}
+
+.text-decoration-none, .tdn{
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Remove input-number up/down arrow */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    display: none;
+}
+
+.box-shadow{
+    box-shadow: 1px 1px 5px rgb(68, 67, 67);
+}
+.box-shadow-light{
+    box-shadow: 1px 1px 20px rgb(228, 227, 227);
+}
+
+.box-shadow-dark{
+    box-shadow: 1px 1px 30px #030e21;
+}
+
+.box-shadow-bottom{
+    box-shadow: 0 2px 2px -2px gray;
+}
+
+.text-shadow {
+    color: #333;
+    text-shadow: 2px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.text-shadow-light {
+    color: #333;
+    text-shadow: 4px 5px 8px rgba(0, 0, 0, 0.5);
+}
+
+.text-off-white{
+    color: rgb(229, 228, 228);
+}
+.bg-off-white{
+    color: rgb(229, 228, 228);
+}
+.hover-dark:hover{
+    background-color: black;
+}
+
+.active-link-off:active{
+    border: none;
+}
+
+.margin-top-md{
+    margin-top: 50px;
+}
+.margin-top-minus{
+    margin-top: -25px;
+}
+.margin-top-75{
+    margin-top: 65px;
+}
+.margin-top-250{
+    margin-top: 250px;
+}
+.margin-top-100{
+    margin-top: 100px;
+}
+.margin-top-50{
+    margin-top: 50px;
+}
+.dftcac{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.dfjcac{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dfjsac{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.dfjeac{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.dfjsae{
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
+.text-green{
+    color: green;
+}
+.text-green-light{
+    color: rgb(7, 231, 7);
+}
+.bg-green-light{
+    background-color: rgb(7, 231, 7);
+}
+.bg-green{
+    background-color: green;
+}
+.margin-auto{
+    margin: auto;
+}
+.letter-spacing{
+    letter-spacing: 1px;
+}
+.float-left{
+    float: left;
+}
+.text-align-right{
+    text-align: right;
+}
+.height-50{
+    height: 50px;
+}
+.input-review{
+    width: 100%;
+    height: 60px;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.cursor-mouse{
+    cursor: default;
+}
+
+.padding-50px{
+    padding: 50px;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.padding-60px{
+    padding: 60px;
+}
+
+.opact-90{
+    opacity: 0.9;
+}
+.opact-50{
+    opacity: 0.5;
+}
+
+.z-index-100{
+    z-index: 100;
+}
+
+.rounded-bottom {
+    border-bottom-left-radius: 15px; 
+    border-bottom-right-radius: 15px; 
+}
+
+.w-15{
+    width: 15%;
+}

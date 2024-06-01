@@ -1,0 +1,8 @@
+# Ignore the images folder
+/images/
+
+# Ignore other files or folders if needed
+/node_modules/
+.DS_Store
+vendor/
+.env

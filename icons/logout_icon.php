@@ -1,0 +1,1 @@
+<i class="fa fa-sign-out text-shadow-light" style="font-size:30px;color:#d10808"></i>

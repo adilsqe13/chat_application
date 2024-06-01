@@ -1,0 +1,161 @@
+.chat-box-select {
+   box-shadow: 2px 5px 10px black;
+   transition: box-shadow 0.5s ease;
+
+}
+
+.chat-box-select:hover {
+   box-shadow: 2px 10px 30px black;
+   transition: box-shadow 0.5s ease;
+}
+
+.dropdown-toggle::after {
+   display: none;
+   /* Hide Bootstrap's default dropdown icon */
+}
+
+.modal-header-new {
+   background-color: #011a42;
+}
+
+.modal-header {
+   background-color: #011a42;
+}
+
+#fileInput[type="file"] {
+   display: none;
+}
+
+.resize-none {
+   resize: none;
+}
+
+.overlay {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: rgba(0, 0, 0, 0.5);
+   z-index: 1;
+}
+
+.box {
+   position: relative;
+   z-index: 2;
+   background: transparent;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   border-radius: 8px;
+}
+
+.padding-2px{
+   padding: 8px;
+   padding-bottom: 0;
+}
+
+
+/* Profile Card */
+.image_area {
+   position: relative;
+ }
+ 
+ img {
+   display: block;
+   max-width: 100%;
+ }
+ 
+ .preview {
+   overflow: hidden;
+   width: 160px;
+   height: 160px;
+   margin: 10px;
+   border: 1px solid red;
+ }
+ 
+ .modal-lg {
+   max-width: 700px !important;
+ }
+ 
+ .card-overlay {
+   position: absolute;
+   bottom: 0px;
+   left: 0;
+   right: 0;
+   background-color: rgba(255, 255, 255, 0.5);
+   overflow: hidden;
+   height: 0;
+   transition: .5s ease;
+   width: 100%;
+ }
+ 
+ .mt24px{
+   margin-top: 24px;
+ }
+ 
+ .image_area:hover .card-overlay {
+   height: 50%;
+   cursor: pointer;
+ }
+ 
+ .bold{
+   font-weight: bold;
+ }
+ 
+ .text {
+   color: #333;
+   font-size: 20px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+   text-align: center;
+ }
+ 
+ .center {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ }
+ 
+ .card {
+   width: 600px;
+   border: none;
+   border-radius: 10px;
+   background-color: #fff;
+ }
+ 
+ .stats {
+   background: #f2f5f8 !important;
+   color: #000 !important;
+ }
+ 
+ .articles {
+   font-size: 10px;
+   color: #a1aab9;
+ }
+ 
+ .number1 {
+   font-weight: 500;
+ }
+ 
+ .followers {
+   font-size: 10px;
+   color: #a1aab9;
+ 
+ }
+ 
+ .number2 {
+   font-weight: 500;
+ }
+ 
+ .rating {
+   font-size: 10px;
+   color: #a1aab9;
+ }
+ 
+ .number3 {
+   font-weight: 500;
+ }
